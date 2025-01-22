@@ -10,6 +10,7 @@ import { RPSgame } from './RPSgame';
 import { Mapper } from './mapper';
 import { AddDeleteFruits } from './AddDeleteFruits';
 import { ToDoList } from './ToDoList';
+import { Carousel } from './carousel';
 
 const App = () => {
   const [counter, setCounter] = useState(0);
@@ -47,8 +48,10 @@ const App = () => {
         />
         <RPSgame />
         <Mapper />
-        */}
+        
         <ToDoList />
+        */}
+        <Carousel />
     </>
   );
 };
